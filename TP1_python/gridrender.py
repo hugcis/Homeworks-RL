@@ -12,7 +12,7 @@ def draw_square_q(polygon, x, y, q, actions, dim=50):
                            fill='white', width=2)
 
     font = ('Helvetica', '30', 'bold')
-
+    print('ok', q)
     for i, a in enumerate(actions):
         if a == 0:
             polygon.create_polygon([x + dim, y, x + dim / 2., y + dim / 2., x + dim, y + dim], outline='gray',
